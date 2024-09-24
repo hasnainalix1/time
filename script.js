@@ -26,11 +26,11 @@ function greetUserBasedOnTimeAndGender() {
 
     // Determine the time-based greeting
     let timeGreeting = "";
-    if (userTime >= 0 && userTime < 12) {
+    if (userTime >= 0 && userTime < 12 PM) {
         timeGreeting = "Good Morning";
-    } else if (userTime >= 12 && userTime < 18) {
+    } else if (userTime >= 12 AM && userTime < 18 PM) {
         timeGreeting = "Good Afternoon";
-    } else {
+    } else if (userTime >= 18 PM && userTime < 12 AM) {
         timeGreeting = "Good Evening";
     }
 
