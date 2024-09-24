@@ -37,7 +37,7 @@ function greetUserBasedOnTimeAndGender() {
     }
 
     // Determine the gender-specific greeting
-    let genderGreeting = gender === "male" ? "Hello Sir" : "Hello Ma'am";
+    let genderGreeting = gender === "male" ? "Sir" : "Ma'am";
 
     // Display the greeting message
     alert(`${timeGreeting}, ${genderGreeting} ${name}!`);
